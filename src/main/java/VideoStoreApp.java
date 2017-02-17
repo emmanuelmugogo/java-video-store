@@ -3,24 +3,23 @@ public class VideoStoreApp {
 
 	public static void main(String[] args) {
 
-		Movie regular = new RegularMovie("WCCI", "regular");
-		Movie childrens = new ChildrensMovie("Up", "childrens");
-		Movie newRelease = new NewRelease("Dr Strnage", "new release");
+		RentalStatement statement = new RentalStatement();
 		
-		System.out.println("regular");
-		System.out.println("amount due = " + regular.calculateFees(2));
-		System.out.println("amount due = " + regular.calculateFees(3));
-		System.out.println("amount due = " + regular.calculateFees(5));
 		
-		System.out.println("\nChildrens");
-		System.out.println("amount due = " + childrens.calculateFees(2));
-		System.out.println("amount due = " + childrens.calculateFees(4));
-		System.out.println("amount due = " + childrens.calculateFees(5));
+		Movie regular = new RegularMovie("WCCI");
+		Movie childrens = new ChildrensMovie("Up");
+		Movie newRelease = new NewRelease("Dr Strange");
+		
+		Rental regualarMovie = new Rental(regular, 5);
+		Rental childrensMovie = new Rental(childrens, 5);
+		Rental newReleaseMovie = new Rental(newRelease, 5);
+		
+		statement.add(regualarMovie);
+		statement.add(childrensMovie);
+		statement.add(newReleaseMovie);
 
-		System.out.println("\nnewRelease");
-		System.out.println("amount due = " + newRelease.calculateFees(2));
-		System.out.println("amount due = " + newRelease.calculateFees(5));
-
+		System.out.println("Movies rented for 5 days");
+		statement.print();
 		
 	}
 

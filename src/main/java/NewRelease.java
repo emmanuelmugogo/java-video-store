@@ -2,14 +2,10 @@ import java.math.BigDecimal;
 
 public class NewRelease extends Movie {
 
-	public NewRelease(String title, String priceCode) {
-		super(title, priceCode);
+	public NewRelease(String title) {
+		super(title, "new release");
 	}
 
-	@Override
-	public String getPriceCode() {
-		return "new release";
-	}
 
 	@Override
 	public BigDecimal calculateFees(int days) {

@@ -14,7 +14,6 @@ public abstract class Movie {
 		return title;
 	}
 
-	public abstract String getPriceCode();
 	
 	public abstract BigDecimal calculateFees(int days); 
 }

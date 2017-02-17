@@ -2,13 +2,8 @@ import java.math.BigDecimal;
 
 public class RegularMovie extends Movie {
 
-	public RegularMovie(String title, String priceCode) {
-		super(title, priceCode);
-	}
-
-	@Override
-	public String getPriceCode() {
-		return "regular";
+	public RegularMovie(String title) {
+		super(title, "regular");
 	}
 
 	@Override

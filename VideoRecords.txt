@@ -1,8 +1,7 @@
-Collection of rented movie...
 
 price code: regular
 Title - WCCI
-Fees - $3.50
+Fees - $2.00
 
 
 price code: Childrens
@@ -12,5 +11,5 @@ Fees - $1.50
 
 price code: new release
 Title - Dr Strange
-Fees - $9.00
+Fees - $6.00
 

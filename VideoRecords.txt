@@ -1,15 +1,59 @@
 
 price code: regular
 Title - WCCI
-Fees - $2.00
+Fees - $1499.00
 
 
 price code: Childrens
 Title - Up
-Fees - $1.50
+Fees - $1497.00
 
 
 price code: new release
 Title - Dr Strange
-Fees - $6.00
+Fees - $3000.00
+
+price code: regular
+Title - WCCI
+Fees - $1499.00
+
+
+price code: Childrens
+Title - Up
+Fees - $1497.00
+
+
+price code: new release
+Title - Dr Strange
+Fees - $3000.00
+
+price code: regular
+Title - WCCI
+Fees - $1499.00
+
+
+price code: Childrens
+Title - Up
+Fees - $1497.00
+
+
+price code: new release
+Title - Dr Strange
+Fees - $3000.00
+
+
+
+price code: regular
+Title - WCCI
+Fees - $6.50
+
+
+price code: Childrens
+Title - Up
+Fees - $4.50
+
+
+price code: new release
+Title - Dr Strange
+Fees - $15.00
 

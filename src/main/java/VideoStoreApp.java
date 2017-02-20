@@ -8,9 +8,9 @@ public class VideoStoreApp {
 		Scanner scanner = new Scanner(System.in);
 		RentalStatement statement = new RentalStatement();
 		
-		System.out.println("Welcome to Video Store App.");
+		System.out.println("Welcome to Video Store App.\n\n");
 		System.out.println("Would you like to see a list of movies you have in your Collection?"
-				+ "\nPlease enter\n \t1 - Yes\n\t2 - No");
+				+ "\n\tPlease enter\n \t1 - Yes\n\t2 - No");
 		int userChoice = scanner.nextInt();
 		
 		if (userChoice == 1) {
@@ -24,7 +24,7 @@ public class VideoStoreApp {
 			
 		}
 		
-		System.out.println("Well now choose for how many days would you like to rent movies?");
+		System.out.println("\n\nWell now choose for how many days would you like to rent movies?");
 		int days = scanner.nextInt();
 				
 				
@@ -42,7 +42,7 @@ public class VideoStoreApp {
 		statement.add(childrensMovie);
 		statement.add(newReleaseMovie);
 
-		System.out.println("Here is your New list and fees for " + days + "days");
+		System.out.println("Here is your New list and fees for " + days + " days");
 		statement.print();
 		
 		System.out.println("would you like to update this list to your Collection?"

@@ -22,9 +22,17 @@ public class RentalStatement {
 	}
 	
 	public void printToText() throws Exception {
-		
+	
+	/*	
+	 * THIS CODE WITH OVERWRITE TO THE TEXT FILE
 		FileOutputStream fileOutput = new FileOutputStream("VideoRecords.txt");
 		PrintStream printOutput = new PrintStream(fileOutput);
+	*/	
+		
+		
+		//This code updates the text file, it doesn't overwrite
+		PrintStream printOutput = new PrintStream(new FileOutputStream("VideoRecords.txt", true));
+		
 		
 		for (Rental rental : rentals) {
 			
@@ -33,7 +41,7 @@ public class RentalStatement {
 			
 		}
 		
-		fileOutput.close();
+//		fileOutput.close();
 		printOutput.close();
 		
 	}
